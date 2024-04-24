@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Emotion Detection</title>
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                Emotion Detection
+            </div>
+            <ul class="nav-links">
+              <li><a href="/" id="impimp">Home</a></li>
+            </ul>
+          </nav>
+
+        <div id = "toptag">
+            Get the <p id="caption">perfect detection </p> for your <p id = "click">audio files 🔊</p><br>
+        </div>
+        
+        <div class = "main">
+            <div class = "upload">
+                <form method="POST" action="/" enctype="multipart/form-data" id="formtot">
+                    <!-- Accept both image and audio files -->
+                    <input type="file" accept="image/*,.wav" name="userfile" id="file"/>
+                    <label for="file" id="abcd">Select File</label>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
